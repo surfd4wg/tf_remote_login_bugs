@@ -1,0 +1,58 @@
+$terraform login
+2021-05-24T12:23:00.034-0600 [DEBUG] Adding temp file log sink: /tmp/terraform-log069640169
+2021-05-24T12:23:00.034-0600 [INFO]  Terraform version: 0.15.4
+2021-05-24T12:23:00.034-0600 [INFO]  Go runtime version: go1.16.3
+2021-05-24T12:23:00.034-0600 [INFO]  CLI args: []string{"/usr/bin/terraform", "login"}
+2021-05-24T12:23:00.034-0600 [TRACE] Stdout is a terminal of width 134
+2021-05-24T12:23:00.034-0600 [TRACE] Stderr is a terminal of width 134
+2021-05-24T12:23:00.034-0600 [TRACE] Stdin is a terminal
+2021-05-24T12:23:00.034-0600 [DEBUG] Attempting to open CLI config file: /root/.terraformrc
+2021-05-24T12:23:00.034-0600 [DEBUG] File doesn't exist, but doesn't need to. Ignoring.
+2021-05-24T12:23:00.034-0600 [INFO]  Loading CLI configuration from /root/.terraform.d/credentials.tfrc.json
+2021-05-24T12:23:00.035-0600 [DEBUG] ignoring non-existing provider search directory terraform.d/plugins
+2021-05-24T12:23:00.035-0600 [DEBUG] ignoring non-existing provider search directory /root/.terraform.d/plugins
+2021-05-24T12:23:00.035-0600 [DEBUG] ignoring non-existing provider search directory /root/.local/share/terraform/plugins
+2021-05-24T12:23:00.035-0600 [DEBUG] ignoring non-existing provider search directory /usr/local/share/terraform/plugins
+2021-05-24T12:23:00.035-0600 [DEBUG] ignoring non-existing provider search directory /usr/share/terraform/plugins
+2021-05-24T12:23:00.035-0600 [DEBUG] ignoring non-existing provider search directory /var/lib/snapd/desktop/terraform/plugins
+2021-05-24T12:23:00.035-0600 [INFO]  CLI command args: []string{"login"}
+2021-05-24T12:23:00.035-0600 [DEBUG] Service discovery for app.terraform.io at https://app.terraform.io/.well-known/terraform.json
+Terraform will request an API token for app.terraform.io using your browser.
+
+If login is successful, Terraform will store the token in plain text in
+the following file for use by subsequent commands:
+    /root/.terraform.d/credentials.tfrc.json
+
+2021-05-24T12:23:00.342-0600 [DEBUG] command: asking for input: "Do you want to proceed?"
+Do you want to proceed?
+  Only 'yes' will be accepted to confirm.
+
+  Enter a value: yes
+
+
+---------------------------------------------------------------------------------
+
+/usr/bin/xdg-open: 869: www-browser: not found
+/usr/bin/xdg-open: 869: links2: not found
+/usr/bin/xdg-open: 869: elinks: not found
+/usr/bin/xdg-open: 869: links: not found
+/usr/bin/xdg-open: 869: lynx: not found
+Open the following URL to access the tokens page for app.terraform.io:
+    https://app.terraform.io/app/settings/tokens?source=terraform-login
+
+
+---------------------------------------------------------------------------------
+
+Generate a token using your browser, and copy-paste it into this prompt.
+
+Terraform will store the token in plain text in the following file
+for use by subsequent commands:
+    /root/.terraform.d/credentials.tfrc.json
+
+Token for app.terraform.io:
+  Enter a value: /usr/bin/xdg-open: 869: w3m: not found
+xdg-open: no method available for opening 'https://app.terraform.io/app/settings/tokens?source=terraform-login'
+2021-05-24T12:23:12.001-0600 [DEBUG] error opening web browser: exit status 3
+2021-05-24T12:23:12.002-0600 [DEBUG] command: asking for input: "Token for app.terraform.io:"
+
+
